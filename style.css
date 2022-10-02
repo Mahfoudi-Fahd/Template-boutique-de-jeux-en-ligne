@@ -1,0 +1,216 @@
+body{
+    
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+ }
+ .top{ 
+display: flex;
+ }
+
+.logo{
+    
+    padding-left: 5%;
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 200%;
+  
+  height: 100px;
+  width: 400px;
+}
+span{
+    color: rgb(241, 22, 22);
+ }
+ .navlink{
+    display: inline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2%;
+    font-size: 100%;
+    color: rgb(255, 253, 253);
+    height: 100px;
+    width: 1000px;
+    font-stretch: wider;
+ }
+ a:hover{
+    color: rgb(241, 10, 10);
+  
+ }
+ .breadcrumb{
+    display: inline;
+    color: rgb(192, 194, 197);
+    text-decoration: none;
+    margin-left: 2%;
+    margin-top: -2%;
+}
+ol.breadcrumb li {
+    
+    display: inline;
+    font-size: 15px;
+  }
+  ol.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgb(255, 249, 249);
+    content: "/\00a0";
+  }
+  .h1{
+    padding: 2% 10%;
+    color: aliceblue;
+  }
+
+  .p1{
+    height: 100px;
+    width: 500px;
+    text-align: left;
+    text-align: justify;
+    color: rgb(218, 215, 221);
+  }
+.img1{
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    margin-left: -124px;
+    height: 330px;
+    width: 279px;
+}
+.imgh1{
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(173, 161, 161);
+    margin-left: -50px;
+    margin-top: auto;
+    height: 300px;
+    width: 250px;
+
+}
+.product1{
+    background-color: rgb(51, 49, 49);
+    margin-left: 10%;
+    padding-left: 10%;
+    height: 500px;
+    width: 155px;
+    border-color: rgb(167, 165, 165);
+    border-radius: 20px;
+    border-style:outset;
+    border-width: 10px;
+}
+.price1{
+    margin-left: -110px;
+    margin-top: -270px;
+    height: 500px;
+    width: 155px;
+
+    color: aliceblue;
+}
+.saving{
+    margin-left: -110px;
+    margin-top: -450px;
+    height: 500px;
+    width: 155px;
+
+    color: rgb(61, 226, 149);
+}
+.img2{
+    display:flex;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    margin-left: 0px;
+    height: 335px;
+    width: 270px;
+}
+.imgh2{
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(173, 161, 161);
+    margin-left: -200px;
+    margin-top: 340px;
+    height: 300px;
+    width: 250px;
+}
+.price2{
+    margin-left: -300px;
+    margin-top: 375px;
+    height: 500px;
+    width: 155px;
+
+    color: aliceblue;
+}
+.product2{
+    display:flex;
+    background-color: rgb(51, 49, 49);
+    margin-left: 150%;
+    margin-top: -968px;
+    height: 500px;
+    width: 270px;
+    border-color: rgb(167, 165, 165);
+    border-radius: 20px;
+    border-style:outset;
+    border-width: 10px;
+}
+.saving2{
+    margin-left: -157px;
+    margin-top: 440px;
+    height: 500px;
+    width: 155px;
+
+    color: rgb(61, 226, 149);
+}
+
+/* product3 */
+.img3{
+    display:flex;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    margin-left: 0px;
+    height: 335px;
+    width: 270px;
+}
+.imgh3{
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(173, 161, 161);
+    margin-left: -200px;
+    margin-top: 340px;
+    height: 300px;
+    width: 250px;
+}
+.price3{
+    margin-left: -300px;
+    margin-top: 375px;
+    height: 500px;
+    width: 155px;
+
+    color: aliceblue;
+}
+.product3{
+    display:flex;
+    background-color: rgb(51, 49, 49);
+    margin-left: 400%;
+    margin-top: -520px;
+    height: 500px;
+    width: 270px;
+    border-color: rgb(167, 165, 165);
+    border-radius: 20px;
+    border-style:outset;
+    border-width: 10px;
+}
+.saving3{
+    margin-left: -157px;
+    margin-top: 440px;
+    height: 500px;
+    width: 155px;
+
+    color: rgb(61, 226, 149);
+}
+footer {
+    text-align: center;
+    display: inline-block;
+   margin-left: 250px;
+    margin-top: 340px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(167, 167, 167);
+  }
+.mail{
+    text-align: center;
+    display:inline;
+    color: rgb(206, 3, 3);
+}
