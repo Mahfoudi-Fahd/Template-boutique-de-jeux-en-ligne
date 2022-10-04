@@ -23,6 +23,15 @@ span {
     color: rgb(241, 22, 22);
 }
 
+.navlink ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+.navlink a {
+    font-size: 100%;
+}
+
 .navlink {
 
     display: inline;
@@ -135,9 +144,14 @@ footer {
     font-size: small;
     background-color: rgb(0, 0, 0);
     color: rgb(167, 167, 167);
+
 }
 
-@media(max-width: 450px) {
+footer a {
+    color: rgb(237, 24, 24);
+}
+
+@media(max-width: 640px) {
 
     .top {
 
@@ -171,7 +185,16 @@ footer {
 
 
     }
+
+    .breadcrumb a {
+
+        font-size: 80%;
+    }
 }
+
+
+/* PRINT  */
+
 
 @media print {
     .navlink {
@@ -180,5 +203,57 @@ footer {
 
     .breadcrumb {
         display: none;
+    }
+
+
+}
+
+
+/* 375 PHONES   */
+
+@media(max-width: 320px) {
+
+    .top {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navlink {
+        justify-content: center;
+        display: inline;
+        flex-direction: row;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-decoration: none;
+
+        font-size: 60%;
+        color: rgb(255, 253, 253);
+
+
+        font-stretch: wider;
+        transition: .9s;
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 200%;
+
+
+    }
+
+    .breadcrumb a {
+
+        font-size: 70%;
+    }
+
+    .h1 {
+        padding: 2% 10%;
+        color: aliceblue;
+        font-size: 80%;
     }
 }
