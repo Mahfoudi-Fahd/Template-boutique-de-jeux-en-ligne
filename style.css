@@ -172,3 +172,13 @@ footer {
 
     }
 }
+
+@media print {
+    .navlink {
+        display: none;
+    }
+
+    .breadcrumb {
+        display: none;
+    }
+}
